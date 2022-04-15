@@ -1,4 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: FB - Login
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 35.87 s - in FB - Login
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 21.507 s <<< FAILURE! - in FB - Login
+FB - Login.User has failed to login FB  Time elapsed: 21.507 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=100.0.4896.88)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'zatihulwanis-MacBook-Air.local', ip: 'fe80:0:0:0:4ed:ecad:4be1:e460%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.7', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f340aedc0394265bc8d5ffb76a382931, getElementText {id=1b747a3e-37ad-4f68-aa26-ac321f19aa7c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 100.0.4896.88, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: /var/folders/_h/fv49zy512xl...}, goog:chromeOptions: {debuggerAddress: localhost:57388}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:57388/devtoo..., se:cdpVersion: 100.0.4896.88, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on MAC (f340aedc0394265bc8d5ffb76a382931)] -> css selector: .rq0escxv.l9j0dhe7.du4w35lb]
+Session ID: f340aedc0394265bc8d5ffb76a382931
+

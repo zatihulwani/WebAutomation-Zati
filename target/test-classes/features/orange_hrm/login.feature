@@ -1,3 +1,4 @@
+@hrm
 Feature: Orange HRM - Login
 
   @hrmlogin

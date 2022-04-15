@@ -1,4 +1,4 @@
-@all @hrmcrud
+@all @hrmcrud @hrm
 Feature: Orange HRM - CRUD Employee Data
 
   Background:
