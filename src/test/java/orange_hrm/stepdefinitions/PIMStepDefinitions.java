@@ -90,8 +90,4 @@ public class PIMStepDefinitions {
 }
 
 
-//    @Then("{actor} can see new employee list result")
-//    public void listResult(Actor actor) {
-//        throw new PendingException();
-//    }
 

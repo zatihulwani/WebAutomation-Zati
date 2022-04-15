@@ -11,3 +11,4 @@ Feature: FB - Login
     And I click button login
     Then I can't see my news feed
     But I see FB has disabled my account
+
